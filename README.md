@@ -1,4 +1,13 @@
 
+# Steps to run
+
+1. git clone  https://github.com/anshul-shukla/Angular2-demo.git 
+2. cd Angular2-demo
+3. npm install
+4. ng serve
+5. http://localhost:4200/challenge 
+
+
 
 #etventure Front-End Challenge
 
@@ -10,11 +19,7 @@
 
 Though this is a small app, please pay attention to your application structure.
 
-1. git clone  https://github.com/anshul-shukla/Angular2-demo.git 
-2. cd Angular2-demo
-3. npm install
-4. ng serve
-5. http://localhost:4200/challenge 
+
 
 
 # Angular2-demo
