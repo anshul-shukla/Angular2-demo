@@ -8,6 +8,10 @@
 5. http://localhost:4200/challenge 
 
 
+**For sorting - click of headers**
+
+
+
 
 #etventure Front-End Challenge
 
