@@ -1,0 +1,22 @@
+.logo {
+	display: inline-block;
+}
+
+.nav {
+	display: inline-block;
+	float: right;
+}
+
+header{
+    padding: 10px;
+    background: #3F51B5;
+    color: #fff;
+    margin-bottom: 20px;
+}
+a {
+    color: #fff !important;
+    height: 35px;
+    display: inline-block;
+    line-height: 35px;
+    padding: 5px;
+}

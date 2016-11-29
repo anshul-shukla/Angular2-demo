@@ -1,0 +1,21 @@
+
+Start Date : <input type="date" class="form-control sort" id="fromDate" [ngModel]="fromDate | date:'y-MM-dd'" (ngModelChange)="fromDate = $event">
+
+End Date : <input type="date" class="form-control sort" id="toDate" [ngModel]="toDate | date:'y-MM-dd'" (ngModelChange)="toDate = $event">
+
+<table class="table table-hover table-striped table-sortable">
+  <thead>
+    <tr>
+      <th *ngFor="let column of columns" [class]="selectedClass(column.variable)" (click)="changeSorting(column.variable)">
+        {{column.display}}
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let object of data | orderBy : convertSorting()|fromDateFilter : fromDate:toDate">
+      <td *ngFor="let column of columns">
+        {{object[column.variable] | format : column.filter}}
+      </td>
+    </tr>
+  </tbody>
+</table>
